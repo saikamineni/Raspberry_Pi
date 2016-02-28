@@ -15,7 +15,7 @@ try:
         GPIO.output(led_pin, True)  # LED on
         time.sleep(0.5)             # delay 0.5 seconds
         GPIO.output(led_pin, False) # LED off
-        time.sleep(1.5)             # delay 0.5 seconds
+        time.sleep(0.5)             # delay 0.5 seconds
 
 finally:
     print("Cleaning up")
